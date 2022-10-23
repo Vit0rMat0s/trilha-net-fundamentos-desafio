@@ -39,7 +39,7 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
                 // Implementado!!!           
-                int horas = Convert.ToInt32(Console.ReadLine());
+                decimal horas = Convert.ToDecimal(Console.ReadLine());
                 decimal valorTotal = precoInicial + precoPorHora * horas;
 
                 // Implementado!!!
